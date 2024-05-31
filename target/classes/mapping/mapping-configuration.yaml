@@ -1,0 +1,26 @@
+mappings:
+  EmployeeDetails:
+    columns:
+      name:
+        type: java.lang.String
+        required: true
+        validation: true
+      salary:
+        type: java.lang.String
+        required: true
+        validation: true
+      age:
+        type: java.lang.Integer
+        required: false
+        validation: false
+
+  DepartmentDetails:
+    columns:
+      name:
+        type: java.lang.String
+        required: true
+        validation: true
+      code:
+        type: java.lang.String
+        required: true
+        validation: true
